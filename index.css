@@ -1,0 +1,47 @@
+/* common */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.column {
+  margin-right: 32px;
+}
+
+.content-header {
+  display: flex;
+}
+
+.content-header > h4 {
+  margin: 4px;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+.m-4 {
+  margin: 4px;
+}
+
+/* swap */
+.swap-container {
+  max-height: 160px;
+  overflow: auto;
+  width: 260px;
+}
+
+.swap-container > div {
+  display: flex;
+  margin: 12px;
+}
+
+.swap-container > div > p {
+  margin: 8px;
+}
+
+/* stopwatch */
+.stopwatch-container {
+  display: flex;
+}
+.stopwatch-error {
+  color: red;
+}
