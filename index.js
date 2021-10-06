@@ -4,8 +4,6 @@ import createCHTMLElement from "./Prototype/prototype.js";
 import createCCHTMLElement from "./ClassInheritance/customElement.js";
 import Stack from "./ClassInheritance/stack.js";
 
-import "./String/_geeksforgeeks.js";
-
 /**
  * Factory function : swap
  */
